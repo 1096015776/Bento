@@ -1,3 +1,11 @@
+/*
+ * @author: fx
+ * @create: 2021-07-10 11:39 AM
+ * @license: MIT
+ * @lastAuthor: fx
+ * @lastEditTime: 2021-07-10 12:28 PM
+ * @desc: 
+ */
 const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
@@ -13,7 +21,7 @@ var tempUnit = 'C';
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = 'aa5b0a76dfbf87441928fb3cc32d3d72';
+const key = 'da8fccac0a38dd5c8062a45d7d1ae61c';
 
 // Set Position function
 setPosition();
@@ -21,8 +29,8 @@ setPosition();
 function setPosition(position) {
   // Here you can change your position
   // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
-  let latitude = 37.774929;
-  let longitude = -122.419418;
+  let latitude = 30.572815;
+  let longitude = 104.066803;
 
   getWeather(latitude, longitude);
 }

@@ -1,9 +1,17 @@
+/*
+ * @author: fx
+ * @create: 2021-07-10 11:39 AM
+ * @license: MIT
+ * @lastAuthor: fx
+ * @lastEditTime: 2021-07-10 12:03 PM
+ * @desc: 
+ */
 // Get the hour
 const today = new Date();
 const hour = today.getHours();
 
 // Here you can change your name
-const name = ' John Doe';
+const name = 'Fang Xi';
 
 // Here you can change your greetings
 const gree1 = 'Go to Sleep!  ';
